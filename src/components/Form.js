@@ -13,13 +13,15 @@ import LabelResultat from "./LabelResultat";
 const Form = () => {
 	const [result, setResult] = useState('');
 	const [calcul, setCalcul] = useState('');
-
-
+	var showResult = '';
+	if (result === '') {
+		showResult = calcul;
+	} else {
+		showResult = calcul + '=' + result;
+	}
 	const unitAdd = (event) => {
-
 		const value = event.target.value;
 		setCalcul(calcul + value);
-
 	};
 
 	const clear = () => {
@@ -31,19 +33,26 @@ const Form = () => {
 	};
 	const calculer = () => {
 		setResult(eval(calcul));
-
-
 	};
+	/*
+		useEffect(() => {
 
-
+			try {
+				setResult(eval(calcul));
+			} catch (e) {
+				if (e instanceof SyntaxError) {
+					//alert(e.message);
+				}
+			}
+		}, );
+	*/
 	return (
 
 		<>
 
 			<div style={{textAlign: 'center'}}>
 				<h1>Calculatrice</h1>
-				<LabelResultat resultat={calcul}></LabelResultat>
-				<LabelResultat resultat={'='  + result}></LabelResultat>
+				<LabelResultat resultat={showResult}></LabelResultat>
 				<ButtonUnit value="1" onClick={unitAdd}>1</ButtonUnit>
 				<ButtonUnit value="2" onClick={unitAdd}>2</ButtonUnit>
 				<ButtonUnit value="3" onClick={unitAdd}>3</ButtonUnit>

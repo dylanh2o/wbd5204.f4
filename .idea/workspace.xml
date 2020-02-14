@@ -7,7 +7,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Xff43I1sFNe5IJlnuk2b4s06Bh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -16,7 +20,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cryptocheck" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -67,7 +71,8 @@
       <option name="presentableId" value="Default" />
       <updated>1581441874311</updated>
       <workItem from="1581441883075" duration="8224000" />
-      <workItem from="1581674538966" duration="7772000" />
+      <workItem from="1581674538966" duration="8018000" />
+      <workItem from="1581689366820" duration="3014000" />
     </task>
     <servers />
   </component>
@@ -79,22 +84,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1581443971106" />
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1581678381323">
+    <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1581692397954">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581678381323" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1581678381323">
+    <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1581692397954" />
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1581692402234">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581678381323" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1581678381323">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581692402234" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1581692402234">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581678381323" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1581678381323">
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581692402234" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1581692402234">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581678381323" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581692402234" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1581692402234">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581692402234" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1581676179441">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
